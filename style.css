@@ -1,0 +1,273 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+body{
+	font-family: lato;
+	background-color: #F3F5F7;
+	overflow-x: hidden;
+}
+
+header{
+	width: 100%;
+	height: auto;
+}
+
+.header-wrapper{
+	width: 100%;
+	height: 180px;
+	/*background-color: red;*/
+	/*margin: 0 auto;*/
+}
+
+/*---------Navbar-----------*/
+
+.navbar{
+	width: 100%;
+	height: 60px;
+	background-color: #2F4C76;
+	align-items: center;
+	padding-left: 100px;
+	padding-right: 100px;
+	
+}
+/*.nav-icon{
+	float: left;
+	position: relative;
+	bottom: 6px;
+	background-color: green;
+}*/
+.navbar-wrapper{
+	/*width: 80%;*/
+	height: 100%;
+	float: left;
+	/*text-align: center;*/
+	align-items: center;
+	display: flex;
+	position: relative;
+	bottom: 57px;
+	/*background-color: red;*/
+}
+.navbar-wrapper ul{
+	padding: 0px;
+}
+.navbar-wrapper ul li{
+	list-style-type: none;
+	display: inline-block;
+	text-align: center;
+	padding: 17px;
+}
+.navbar-wrapper ul li a{
+	text-decoration: none;
+	color: white;	
+}
+.navbar-wrapper i{
+	padding-left: 5px;
+	position: relative;
+	top: 3px;
+}
+.nav-contact{
+	float: right;
+	position: relative;
+	/*left: 250px;*/
+	bottom: 32px;
+	/*background-color: yellow;*/
+
+}
+.nav-contact a{
+	text-decoration: none;
+	color: white;
+	text-align: center;
+}
+.navbar a:hover{
+	color: blue;
+}
+
+/*---------login-----------*/
+
+
+
+.login{
+	width: 100%;
+	height: 40px;
+	background-color: #F7F7F7;
+	align-items: center;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.col-login-1{
+	width: 30%;
+	height: 100%;
+	position: relative;
+	top: 10px;
+	/*background-color: blue;*/
+}
+.col-login-2{
+	height: 100%;
+	position: relative;
+	bottom: 30px;
+	float: right;
+	/*background-color: red;*/
+}
+.col-login-2 a{
+	text-decoration: none;
+	color: black;
+	font-size: 15px;
+	align-items: center;
+	
+}
+.col-login-2 a span{
+	position: relative;
+	bottom:3px;
+}
+.col-login-2 a:hover{
+	color: blue;
+}
+.login-icon-1{
+	border-right: 1px solid black;
+	padding-right: 14px;
+}
+.login-icon-2{
+	padding-left: 10px;
+}
+
+
+
+
+/*-------------logo---------------*/
+
+.logo{
+	width: 100%;
+	height: 80px;
+	background-color: #FFFFFF;
+	align-items: center;
+	/*display: flex;*/
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.logo-wrapper{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.search-bar{
+	/*border-radius: 25px;*/
+	position: relative;
+	bottom: 60px;
+	left: 300px;
+}
+.cart{
+	float: right;
+	position: relative;
+	bottom: 80px;
+}
+.cart a{
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	align-items: center;
+}
+.cart a:hover{
+	color: blue;
+}
+.cart a span{
+	position: relative;
+	bottom:3px;
+}
+
+/*---------search--------*/
+
+
+
+
+/*----------banner---------*/
+
+/*.banner-wrapper{
+	width: 100%;
+	height: 400px;
+	padding top: 10px;
+	background-color: yellow;
+}*/
+/*.banner{
+	width: 100%;
+	height:100%;
+	padding-top: 20px;
+}
+.banner img{
+	width: 100%;
+	height: 380px;
+	position: relative;
+	bottom: 40px;
+	/*padding top: 10px;*/
+}*/
+.slider-box {
+    width: 100%;
+    height: 400px;
+    max-height: 90vh;
+    position  : relative;
+    overflow  : hidden;
+    margin    : 30px auto;
+    background-color: yellow;
+}
+
+#slider {
+    width: 100%;
+    height: 400px;
+    display   : inline-flex;
+    transition: 0.7s;
+}
+
+#slider img {
+    width: 100%;
+}
+
+.indicators {
+    position : absolute;
+    left     : 50%;
+    bottom   : 20px;
+    transform: translateX(-50%);
+}
+
+.indicators span {
+    display      : inline-block;
+    width        : 10px;
+    height       : 10px;
+    border-radius: 50%;
+    /*background   : rgba(255, 255, 255, 0.5);*/
+    background: #B29143;
+    cursor       : pointer;
+}
+
+.active {
+    /*background: #ffff !important;*/
+    background: #90690D !important;
+}
+
+
+
+
+/*----------books-----------*/
+
+
+
+.newly-published-books{
+	width: 100%;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 50px;
+	/*background-color: blue;*/
+}
+.newly-border{
+	border-top: 2px solid blue;
+	position: relative;
+	top: 40px;
+}
+
+
+
+
+
+
+
+
+

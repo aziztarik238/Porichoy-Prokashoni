@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Porichoi Prokashoni</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<div class="header-wrapper">
+
+
+			<div class="login">	
+				<div class="col-login-1">
+					<p style="color: #607696">Bismillahir Rahmanir Rahim,<span style="color: #F8B561"> Assalamu Alaikum</span></p>
+				</div>
+				<div class="col-login-2">
+					<a href="" class="login-icon-1"><i><img src="image\Web Slicing\header\help.png"></i><span style="padding-left: 4px">Need Help</span></a>
+					<a href="" class="login-icon-2"><i><img src="image\Web Slicing\header\login.png"></i><span style="padding-left: 4px">Login</span></a>		
+				</div>	
+			</div>
+
+
+			<div class="logo">
+				<div class="logo-wrapper">
+					<img src="image\Web Slicing\header\logo.png">
+				</div>
+				
+				<div class="search-bar">
+	  				<form id="search-form">
+    					<div class="search">
+      						<input type="text" name="search" class="round" />
+      						<input type="submit" class="corner" value="" />
+    					</div>
+					</form>
+				</div>
+				<div class="cart">
+					<a href="" class="logo-icon-1" style="padding-right: 20px"><i><img src="image\Web Slicing\header\love.png"></i><span style="padding-left: 4px">Wish List</span></a>
+					<a href="" class="logo-icon-2"><i><img src="image\Web Slicing\header\cart.png"></i><span style="padding-left: 4px">My Cart (2)</span></a>
+				</div>
+			</div>
+
+
+			<div class="navbar">
+				<!-- <div class="nav-icon">
+					<a href=""><i><img src="C:\Users\user\OneDrive\Desktop\Porichoy\image\Web Slicing\header\cart.png"></i></a>
+				</div> -->
+				<div class="navbar-wrapper">
+						<ul>
+							<li style="padding-left: 5px"><a href=""><i><img src="image\Web Slicing\header\cart.png"></i></a></li>
+							<li><a href="">Home</a></li>
+							<li><a href="">About Us</a></li>
+							<li><a href=""><span>All Categories</span><i><img src="image\Web Slicing\header\down-arrow.png"></i></a></li>
+							<li><a href="">Popular Books</a></li>
+							<li><a href=""><span>Author</span><i><img src="image\Web Slicing\header\down-arrow.png"></i></a></li>
+							<li><a href=""><span>Publisher</span><i><img src="image\Web Slicing\header\down-arrow.png"></i></a></li>
+							<li><a href="">Pre-Order</a></li>
+							<li><a href="">Blog</a></li>
+							<li><a href="">Events</a></li>
+							<li><a href="">e-Book</a></li>
+						</ul>
+				</div>
+				<div class="nav-contact">
+					<a href="">Contact Us</a>
+				</div>
+			</div>
+
+		</div>
+	</header>
+
+	<!-- <div class="banner-wrapper"> -->
+			<div class="slider-box">
+		        <div id="slider">
+		            <img src="C:\Users\user\OneDrive\Desktop\Porichoy\image\Web Slicing\banner/banner.png" alt="">
+		            <img src="C:\Users\user\OneDrive\Desktop\Porichoy\image\Web Slicing\banner/banner.png" alt="">
+		            <img src="C:\Users\user\OneDrive\Desktop\Porichoy\image\Web Slicing\banner/banner.png" alt="">
+		            <img src="C:\Users\user\OneDrive\Desktop\Porichoy\image\Web Slicing\banner/banner.png" alt="">
+		        </div>
+		        <div class="indicators">
+		            <span id="btn1" class="active"></span>
+		            <span id="btn2"></span>
+		            <span id="btn3"></span>
+		            <span id="btn4"></span>
+		        </div>
+	    	</div>
+	<!-- </div> -->
+	<script>
+
+        var slide = document.getElementById("slider");
+        var btn1 = document.getElementById('btn1');
+        var btn2 = document.getElementById('btn2');
+        var btn3 = document.getElementById('btn3');
+        var btn4 = document.getElementById('btn4');
+
+        btn1.onclick = function () {
+            slide.style.transform = "translateX(0px)";
+            btn1.classList.add('active');
+            btn2.classList.remove('active');
+            btn3.classList.remove('active');
+            btn4.classList.remove('active');
+        };
+        btn2.onclick = function () {
+            slide.style.transform = "translateX(-100%)";
+            btn1.classList.remove('active');
+            btn2.classList.add('active');
+            btn3.classList.remove('active');
+            btn4.classList.remove('active');
+        };
+        btn3.onclick = function () {
+            slide.style.transform = "translateX(-200%)";
+            btn1.classList.remove('active');
+            btn2.classList.remove('active');
+            btn3.classList.add('active');
+            btn4.classList.remove('active');
+        };
+        btn4.onclick = function () {
+            slide.style.transform = "translateX(-300%)";
+            btn1.classList.remove('active');
+            btn2.classList.remove('active');
+            btn3.classList.remove('active');
+            btn4.classList.add('active');
+        };
+
+    </script>
+
+
+
+
+
+    <div class="newly-published-books">
+    	<div class="newly-heading">
+    		<div style="float: left;">
+    			<h2>Newly Published Books</h2>
+    		</div>
+    		<div style="float: right;">
+    			<i><img style="width: 30px; height: 30px" src="image\Web Slicing\body\left-arrow.png"></i>
+    			<i><img style="width: 30px; height: 30px" src="image\Web Slicing\body\right-arrow.png"></i>
+    		</div>
+    		<div class="newly-border">
+    			
+    		</div>
+
+    	</div>
+    	<div class="newly-content">
+    		
+    	</div>
+    </div>
+
+
+
+
+
+
+	
+	
+
+</body>
+</html>
